@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Vocabulary Flashcards & Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>English Vocabulary Flashcards & Quiz</h1>
+        </header>
+        <section id="flashcards-section">
+            <h2><i class="fa-solid fa-clone"></i> Vocabulary Flashcards</h2>
+            <div class="flashcards-grid" id="flashcards-grid">
+                </div>
+            <button id="start-quiz-btn" class="primary-btn">Start Quiz</button>
+        </section>
+        <section id="quiz-section" class="hidden">
+            <h2><i class="fa-solid fa-question"></i> Quiz</h2>
+            <form id="quiz-form">
+                <div id="quiz-questions">
+                    </div>
+                <button type="submit" class="primary-btn">Submit Answers</button>
+            </form>
+        </section>
+        <section id="results-section" class="hidden">
+            <h2><i class="fa-solid fa-trophy"></i> Results</h2>
+            <div id="score-display"></div>
+            <button id="retry-btn" class="primary-btn">Try Again</button>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
